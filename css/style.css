@@ -1,0 +1,196 @@
+
+*{
+    box-sizing: border-box;
+    background:rgb(1, 1, 28);
+    color:white;
+    font-family: fantasy;
+}
+
+
+
+.d-flex{
+    display:flex;
+}
+.nav{
+width:100%;
+justify-content:space-around ;
+
+}
+.jus-cont-around{
+    justify-content:space-evenly;
+    align-items: center;
+}
+ul{
+    margin:0;
+    
+}
+wid-30{
+    width:30%;
+  
+}
+a{
+    text-decoration: none;
+    /* color:white; */
+      font-size:30px;
+}
+a:hover{
+    color:aqua;
+}
+li{
+    list-style: none;
+}
+.wid-100{
+    width:100%;
+}
+.icon{
+  gap:0;
+  font-size:40px;
+}
+.code{
+    margin:0;
+     font-size:30px;
+}
+.aqua{
+    color:aqua;
+}
+hr{
+    border:solid 1px navy;
+}
+.wid-40{
+    width:40%;
+}
+.sec1{
+    align-items: center;
+    justify-content: space-around;
+    row-gap: 10px;
+
+}
+.setup{
+    width:100%;
+    border-radius:10%;
+    border:1px navy solid;
+    margin-top:10%;
+}
+.h1{
+    font-size:60px;
+}
+.instr{
+ line-height: 30px;
+ letter-spacing: 5%;
+ font-weight: lighter;
+ font-size: 20px;
+}
+
+.play{
+      background: linear-gradient(
+        to right,
+        #3185ff,
+        #6547f5,
+        #a32de9,
+        #ed42c5
+    );
+      -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.btn1{
+padding:4%;
+background-color: orange;
+color:black;
+border:orange 2px solid;
+border-radius:10%;
+font-size:20px;
+}
+.btn1:hover{
+background-color: black;
+color:white;
+}
+
+.wid-70{
+    width:70%;
+}
+.i-play{
+    background-color: transparent;
+    color:black;
+}
+.btn2{
+    border-radius:10%;
+font-size:20px;
+border:white 2px solid;
+padding:5%;
+}
+
+.sec2{
+    width:90%;
+    margin:auto ;
+    justify-content: space-evenly;
+      align-items: center;
+      row-gap: 4px;
+     
+}
+.des{
+    line-height: 30px;
+ letter-spacing: 5%;
+ font-weight: lighter;
+ font-size: 15px;
+}
+.tic{
+    width:100%;
+    border-radius: 10%;
+      border:solid 2px navy;
+      height: 300px;}
+
+.card{
+    border-radius:10%;
+    border:solid 2px navy;
+      width:40%;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+      
+   
+}
+.btn-grid{
+    background-color: orange;
+color:black;
+border:orange 2px solid;
+border-radius:10%;
+font-size:20px;
+}
+.text-card{
+    width:80%;
+    margin-left:3%;
+}
+.small-card{
+     width:80%;
+    margin-left:3%;
+
+}
+.last-card{
+   margin:auto;
+   width:90%;
+}
+.h{
+    color:orange;
+}
+.card2{
+    width:30%;
+    border-radius:10%;
+    border:solid 2px white;
+    padding:3%;
+
+}
+.marg{
+    margin-left:30px;
+}
+.wid-50{
+    width:50%;
+}
+.card:hover{
+      transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+.jus-bwt{
+    justify-content: space-between;
+}
+html {
+    scroll-behavior: smooth;
+}
